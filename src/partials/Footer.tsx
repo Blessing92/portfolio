@@ -4,7 +4,7 @@ import { AppConfig } from '@/utils/AppConfig';
 
 const CustomFooter = () => (
     <footer>
-        <p>&copy; {new Date().getFullYear()} {AppConfig.site_name}. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} {AppConfig.site_name}.</p>
     </footer>
 );
 
