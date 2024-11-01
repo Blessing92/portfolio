@@ -15,21 +15,19 @@ const Hero = () => (
       }
       description={
         <>
-          A versatile Software Engineer with over <a className="text-cyan-400 hover:underline" href="/">
-          4 years
-        </a>{' '} of experience specializing in
+          A passionate Software Engineer looking for a new challenge. With experience specializing in
           full-stack development and a focus on backend engineering.
-          My skills span across <a className="text-cyan-400 hover:underline"> JavaScript/TypeScript (React, Node.js)</a>
+          My skills span across <a className="text-cyan-400 hover:underline"> JavaScript/TypeScript (Node.js, React.js)</a>
           {' '} and <a className="text-cyan-400 hover:underline"> Python (Django, FastAPI) </a>,
           along with expertise in cloud infrastructure <a className="text-cyan-400 hover:underline"> (AWS, Google
-          Cloud)</a>{' '}
-          and microservices architecture.
+          Cloud)</a>{' '} and microservices architecture. I thrive on tackling challenging problems, approaching each
+          one with patience, determination, and unwavering perseverance.
         </>
       }
       avatar={
         <img
             className="h-80 w-64"
-            src="/assets/images/avatar.svg"
+            src="/assets/images/percy.jpg"
           alt="Avatar image"
           loading="lazy"
         />

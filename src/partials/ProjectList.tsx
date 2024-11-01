@@ -28,7 +28,7 @@ const ProjectList = () => (
         }}
         category={
           <>
-              <Tags color={ColorTags.FUCHSIA}>React</Tags>
+              <Tags color={ColorTags.AMBER}>React</Tags>
             <Tags color={ColorTags.FUCHSIA}>TypeScript</Tags>
             <Tags color={ColorTags.LIME}>Supabase</Tags>
             <Tags color={ColorTags.SKY}>Node.js</Tags>
@@ -36,20 +36,41 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="Rapid-Crust"
+        description="A streamlined platform for ordering fresh, oven-baked pizzas with the convenience of quick delivery.
+        This project ensures that customers enjoy quality pizza, straight from the oven to their doorstep,
+        with features for easy ordering, real-time tracking, and customized pizza selections. Perfect for those craving
+        an authentic pizza experience at home."
+        link="https://rapid-crust.vercel.app/"
+        img={{ src: '/assets/images/rapid-crust.png', alt: 'rapid crust' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
+            <Tags color={ColorTags.VIOLET}>React</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+              <Tags color={ColorTags.INDIGO}>Python (FastApi)</Tags>
+              <Tags color={ColorTags.EMERALD}>Tailwind css</Tags>
           </>
         }
       />
+        <Project
+            name="PerveraFlow"
+            description="A powerful tool designed to streamline project and business management for teams and
+            organizations. This platform enables seamless collaboration, efficient task tracking, and real-time project
+            insights, making it easier to manage workflows, assign roles, and monitor progress. Ideal for businesses
+            looking to enhance productivity, improve team coordination, and achieve goals faster."
+            link="/"
+            img={{ src: '/assets/images/project-maps.png', alt: 'perseverance-flow' }}
+            category={
+                <>
+                    <Tags color={ColorTags.EMERALD}>Coming soon...</Tags>
+                    <Tags color={ColorTags.FUCHSIA}>React</Tags>
+                    <Tags color={ColorTags.EMERALD}>Typescript</Tags>
+                    <Tags color={ColorTags.YELLOW}>Nodejs</Tags>
+                    <Tags color={ColorTags.YELLOW}>Supabase</Tags>
+                    <Tags color={ColorTags.YELLOW}>Postgres</Tags>
+                </>
+            }
+        />
     </div>
   </Section>
 );
